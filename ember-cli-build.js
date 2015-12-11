@@ -9,6 +9,9 @@ module.exports = function(defaults) {
 
   // Use `app.import` to add additional libraries to the generated
   // output files.
+  app.import('vendor/fb_sdk.js');
+  app.import('vendor/plugins.js');
+  app.import('vendor/core.js');
   //
   // If you need to use different assets in different
   // environments, specify an object as the first parameter. That

@@ -1,0 +1,8 @@
+{{#if h5Text}}<h5 class="{{textClass}}">Check my social media!</h5>{{else}}<strong class="{{textClass}}">Check my social media!</strong>{{/if}}
+
+<ul class="list-inline {{listClass}}">
+  <li><a href="{{facebookURL}}" class="icon icon-xs {{if activeIconClass 'icon-facebook'}} {{iconClass}}" target="_blank"><i class="fa fa-facebook {{mutedClass}}"></i></a></li>
+  <li><a href="{{twitterURL}}" class="icon icon-xs {{if activeIconClass 'icon-twitter'}} {{iconClass}}" target="_blank"><i class="fa fa-twitter {{mutedClass}}"></i></a></li>
+  <li><a href="{{linkedInURL}}" class="icon icon-xs {{if activeIconClass 'icon-linkedin'}} {{iconClass}}" target="_blank"><i class="fa fa-linkedin-square {{mutedClass}}"></i></a></li>
+  <li><a href="{{githubURL}}" class="icon icon-xs {{if activeIconClass 'icon-github'}} {{iconClass}}" target="_blank"><i class="fa fa-github {{mutedClass}}"></i></a></li>
+</ul>

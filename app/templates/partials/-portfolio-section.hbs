@@ -1,0 +1,126 @@
+<section id="portfolio" class="section bg-grey padding-v-60">
+
+  <!-- Content -->
+  <div class="container container-wide">
+
+    <h6 class="margin-b-50">Portfolio</h6>
+
+    <div class="row masonry">
+      <!-- Masonry Sizer -->
+      <div class="masonry-sizer col-lg-3 col-sm-6 col-xs-12"></div>
+
+      <!-- Masonry Element -->
+      <div class="masonry-item margin-b-30 col-lg-6 col-sm-12 col-xs-12">
+        <div class="gallery-item">
+          <div class="item-photo">
+            <!--<a href="projects/project-example-it.html" data-target="ajax-modal"><img src="img/projects/project-square01.jpg" alt="" /></a>-->
+            {{#link-to 'portfolio-item' (query-params projectName='fantasyinsiders') data-target="ajax-modal" tagName='a'}}<img src="img/projects/fantasyinsiders.png" alt="" />{{/link-to}}
+            <div class="item-hover bg-dark dark">
+              <div class="item-hover-content">
+                {{#link-to 'portfolio-item' (query-params projectName='fantasyinsiders') data-target="ajax-modal" tagName='a' class="icon icon-sm icon-hover icon-circle icon-primary"}}<i class="fa fa-link"></i>{{/link-to}}
+                <!--<a href="projects/project-example-it.html" data-target="ajax-modal" class="icon icon-sm icon-hover icon-circle icon-primary"><i class="fa fa-link"></i></a>-->
+                <a href="#" class="icon icon-sm icon-circle icon-white icon-hover"><i class="fa fa-play"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="item-title">
+            {{#link-to 'portfolio-item' (query-params projectName='fantasyinsiders') class="title"}}FantasyInsiders{{/link-to}}
+            <span class="caption text-muted">Daily Fantasy Sports application</span>
+          </div>
+        </div>
+      </div>
+      <!-- Masonry Element -->
+      <div class="masonry-item margin-b-30 col-lg-3 col-sm-6 col-xs-12">
+        <div class="gallery-item">
+          <div class="item-photo">
+            {{#link-to 'portfolio-item' (query-params projectName='slidingmenu') data-target="ajax-modal" tagName='a'}}<img src="img/projects/sliding-menu-present.png" alt="" />{{/link-to}}
+            <div class="item-hover bg-dark dark">
+              <div class="item-hover-content">
+                {{#link-to 'portfolio-item' (query-params projectName='slidingmenu') data-target="ajax-modal" tagName='a' class="icon icon-sm icon-hover icon-circle icon-primary"}}<i class="fa fa-link"></i>{{/link-to}}
+                <a href="#" class="icon icon-sm icon-circle icon-white icon-hover"><i class="fa fa-play"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="item-title">
+            {{#link-to 'portfolio-item' (query-params projectName='slidingmenu') class="title"}}Sliding Menu Plugin{{/link-to}}
+            <span class="caption text-muted">Open Source project for Ember</span>
+          </div>
+        </div>
+      </div>
+      <!-- Masonry Element -->
+      <div class="masonry-item margin-b-30 col-lg-3 col-sm-6 col-xs-12">
+        <div class="gallery-item">
+          <div class="item-photo">
+            {{#link-to 'portfolio-item' (query-params projectName='wecudos') data-target="ajax-modal" tagName='a'}}<img src="img/projects/wecudos-web-present.png" alt="" />{{/link-to}}
+            <div class="item-hover bg-dark dark">
+              <div class="item-hover-content">
+                {{#link-to 'portfolio-item' (query-params projectName='wecudos') data-target="ajax-modal" tagName='a' class="icon icon-sm icon-hover icon-circle icon-primary"}}<i class="fa fa-link"></i>{{/link-to}}
+                <a href="#" class="icon icon-sm icon-circle icon-white icon-hover"><i class="fa fa-play"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="item-title">
+            {{#link-to 'portfolio-item' (query-params projectName='wecudos') class="title"}}Wecudos{{/link-to}}
+            <span class="caption text-muted">Tool for Professionals</span>
+          </div>
+        </div>
+      </div>
+      <!-- Masonry Element -->
+      <div class="masonry-item margin-b-30 col-lg-3 col-sm-6 col-xs-12">
+        <div class="gallery-item">
+          <div class="item-photo">
+            {{#link-to 'portfolio-item' (query-params projectName='asposeemail') data-target="ajax-modal" tagName='a'}}<img src="img/projects/aspose.png" alt="" />{{/link-to}}
+            <div class="item-hover bg-dark dark">
+              <div class="item-hover-content">
+                {{#link-to 'portfolio-item' (query-params projectName='asposeemail') data-target="ajax-modal" tagName='a' class="icon icon-sm icon-hover icon-circle icon-primary"}}<i class="fa fa-link"></i>{{/link-to}}
+                <a href="#" class="icon icon-sm icon-circle icon-white icon-hover"><i class="fa fa-play"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="item-title">
+            {{#link-to 'portfolio-item' (query-params projectName='asposeemail') class="title"}}Aspose Email{{/link-to}}
+            <span class="caption text-muted">Lightweight Email Client</span>
+          </div>
+        </div>
+      </div>
+      <!-- Masonry Element -->
+      <div class="masonry-item margin-b-30 col-lg-6 col-sm-12 col-xs-12">
+        <div class="gallery-item">
+          <div class="item-photo">
+            {{#link-to 'portfolio-item' (query-params projectName='wecudosmobile') data-target="ajax-modal" tagName='a'}}<img src="img/projects/wecudos-mobile.png" alt="" />{{/link-to}}
+            <div class="item-hover bg-dark dark">
+              <div class="item-hover-content">
+                {{#link-to 'portfolio-item' (query-params projectName='wecudosmobile') data-target="ajax-modal" tagName='a' class="icon icon-sm icon-hover icon-circle icon-primary"}}<i class="fa fa-link"></i>{{/link-to}}
+                <a href="#" class="icon icon-sm icon-circle icon-white icon-hover"><i class="fa fa-play"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="item-title">
+            {{#link-to 'portfolio-item' (query-params projectName='wecudosmobile') class="title"}}Wecudos Mobile{{/link-to}}
+            <span class="caption text-muted">Health & Fitness Application</span>
+          </div>
+        </div>
+      </div>
+      <!-- Masonry Element -->
+      <div class="masonry-item margin-b-30 col-lg-3 col-sm-6 col-xs-12">
+        <div class="gallery-item">
+          <div class="item-photo">
+            {{#link-to 'portfolio-item' (query-params projectName='bancklecampaign') data-target="ajax-modal" tagName='a'}}<img src="img/projects/banckle.png" alt="" />{{/link-to}}
+            <div class="item-hover bg-dark dark">
+              <div class="item-hover-content">
+                {{#link-to 'portfolio-item' (query-params projectName='bancklecampaign') data-target="ajax-modal" tagName='a' class="icon icon-sm icon-hover icon-circle icon-primary"}}<i class="fa fa-link"></i>{{/link-to}}
+                <a href="#" class="icon icon-sm icon-circle icon-white icon-hover"><i class="fa fa-play"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="item-title">
+            {{#link-to 'portfolio-item' (query-params projectName='bancklecampaign') class="title"}}Banckle Campaign{{/link-to}}
+            <span class="caption text-muted">Email Campaign platform</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</section>

@@ -8,6 +8,11 @@ let App;
 Ember.MODEL_FACTORY_INJECTIONS = true;
 
 App = Ember.Application.extend({
+  ready: function () {
+    Ember.run.later(this, function() {
+      window.Mi.init();
+    }, 1);
+  },
   modulePrefix: config.modulePrefix,
   podModulePrefix: config.podModulePrefix,
   Resolver

@@ -1,0 +1,34 @@
+<!-- Header -->
+<header id="header" class="bg-white hidden-sm hidden-xs">
+
+  <!-- Photo -->
+  <div class="photo">
+    <img src="img/photos/main-avatar.png" alt="...">
+  </div>
+
+  <nav id="main-menu">
+    {{partial "partials/main-menu-nav"}}
+  </nav>
+
+  {{social-links class='social-media' listClass='margin-t-10' faClass='text-muted'}}
+
+</header>
+<!-- Header / End -->
+
+<!-- Mobile Navigation -->
+<a href="#" id="mobile-nav-toggle" class="icon icon-circle icon-sm icon-primary icon-hover visible-xs visible-sm" data-target="mobile-nav">
+  <i class="ti-menu"></i>
+</a>
+<nav id="mobile-nav" class="bg-white">
+  <div class="mobile-nav-wrapper">
+    <!-- Avatar -->
+    <img src="img/photos/it-avatar-96x96.jpg" alt="..." class="img-circle margin-b-30">
+
+
+    {{partial "partials/main-menu-nav"}}
+
+    {{social-links class='margin-t-20' listClass='margin-t-10' faClass='text-muted'}}
+
+  </div>
+  <a href="#" class="mobile-nav-close icon icon-hover icon-xs icon-circle icon-primary" data-target="mobile-nav"><i class="fa fa-times"></i></a>
+</nav>
