@@ -5,6 +5,6 @@
   "logo": "http://emberjs.com/images/logos/ember-logo.png",
   "keywords": ["ember", "ember.js", "ember-cli"],
   "env": {
-    "BUILDPACK_URL": "https://github.com/Blackening999/portfolio.git"
+    "BUILDPACK_URL": "https://github.com/tonycoco/heroku-buildpack-ember-cli.git"
   }
 }
