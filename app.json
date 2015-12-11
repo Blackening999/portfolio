@@ -1,0 +1,10 @@
+{
+  "name": "Katansky Portfolio",
+  "description": "Own thing you know",
+  "repository": "https://github.com/Blackening999/portfolio",
+  "logo": "http://emberjs.com/images/logos/ember-logo.png",
+  "keywords": ["ember", "ember.js", "ember-cli"],
+  "env": {
+    "BUILDPACK_URL": "https://github.com/Blackening999/portfolio.git"
+  }
+}
