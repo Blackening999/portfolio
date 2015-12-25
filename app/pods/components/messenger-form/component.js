@@ -10,7 +10,8 @@ export default Ember.Component.extend({
   actions: {
     sendEmail() {
       const $messengerForm = this.$('#messenger'),
-            $messengerBox  = this.$('#messenger-box');
+            $messengerBox  = this.$('#messenger-box'),
+            $errorForm = this.$('.form-error ul li');
 
       Ember.$.ajax({
         type: "POST",
@@ -31,9 +32,16 @@ export default Ember.Component.extend({
             'subject': this.get('emailSubject'),
             'html': this.get('emailBody')
           }
-    }}).done(response => {
+    }}).done(() => {
       $messengerBox.find('.messenger-box-content').fadeOut();
+      $errorForm.remove();
       $messengerForm.fadeOut(300).removeClass('active');
+      this.setProperties({
+        fromEmail: '',
+        fromName: '',
+        emailSubject: 'Message from portfolio!',
+        emailBody: ''
+      });
     });
   }
   }

@@ -5,7 +5,7 @@ export default Ember.Component.extend({
   projectData: {},
 
   didInsertElement() {
-    this.set('offsetTop', $(document).scrollTop());
+    this.set('offsetTop', Ember.$(document).scrollTop());
     Ember.$('body').addClass('ajax-modal-opened');
     Ember.$('#ajax-modal').fadeIn(200, function(){
       Ember.$('html').addClass('locked-scrolling');
